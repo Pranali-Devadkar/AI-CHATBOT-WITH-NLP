@@ -58,39 +58,6 @@ Average Score: 85.25
 
 ---
 
-## 📜 Python Script Overview
-
-```python
-from reportlab.pdfgen import canvas
-import os
-
-# Data
-names = ["Ali", "Sara", "Ahmed", "Noor"]
-scores = [85, 90, 78, 88]
-average = sum(scores) / len(scores)
-
-# Output PDF path
-file_name = "simple_report.pdf"
-file_path = os.path.join(os.getcwd(), file_name)
-
-# PDF generation
-c = canvas.Canvas(file_path)
-c.drawString(100, 800, "Student Scores Report")
-y = 770
-
-for i in range(len(names)):
-    line = f"{names[i]}: {scores[i]}"
-    c.drawString(100, y, line)
-    y -= 20
-
-c.drawString(100, y - 20, f"Average Score: {average:.2f}")
-c.save()
-
-print(f"PDF created: {file_path}")
-
-
----
-
 📦 Requirements
 
 Install the ReportLab library using pip:
