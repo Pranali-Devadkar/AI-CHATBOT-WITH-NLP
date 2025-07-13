@@ -12,90 +12,73 @@ DURATION: 6 WEEKS
 
 MENTOR: NEELA SANTHOSH
 
-📊 Automated Report Generation
 
-This project is a simple Python script that reads student names and scores, analyzes the data, and generates a formatted PDF report. It demonstrates how to automate report creation using the reportlab library in Python.
+🤖 AI Chatbot with NLP
 
----
+This project involves building a simple AI-powered chatbot using Natural Language Processing (NLP) techniques. The chatbot is capable of answering basic user queries using libraries like NLTK or spaCy in Python.
 
-## 🚀 Features
+📌 Project Objective
 
-- Reads data (student names and scores)
-- Calculates average score
-- Generates a clean, formatted PDF report
-- Easy to run on mobile using *Pydroid 3* or any Python IDE
+To design and implement a basic rule-based or intent-based chatbot using NLP libraries that can process natural language input and provide appropriate responses.
 
----
+🛠️ Tools & Technologies
 
-## 🧰 Tools & Technologies
+Python 3.x
 
-| Tool        | Description                            |
-|-------------|----------------------------------------|
-| Python      | Programming language                   |
-| ReportLab   | Library for generating PDF documents   |
-| Pydroid 3   | Android-based Python IDE (for testing) |
-| GitHub      | Version control and code hosting       |
+NLTK (Natural Language Toolkit) or spaCy
 
----
-
-## 📁 Project Structure
-
-automated-report/ │ ├── simple_report.pdf      # Output PDF file ├── report_generator.py    # Main Python script ├── README.md              # Project documentation
-
----
-
-## 🧾 Sample Output (PDF Report)
-
-*Report Title:* Student Scores Report  
-*Details:*
-
-Ali: 85
-Sara: 90
-Ahmed: 78
-Noor: 88
-
-Average Score: 85.25
-
----
-
-📦 Requirements
-
-Install the ReportLab library using pip:
-
-pip install reportlab
-
-Or install from Pydroid 3 > Pip menu (if using Android).
+Optional: scikit-learn, pickle, Flask for deployment
 
 
----
+🚀 Features
 
-💡 How to Run
+Basic intent recognition
 
-1. Install Python or use Pydroid 3 (for mobile).
+Tokenization and text preprocessing
 
+Predefined response generation
 
-2. Copy the script into a .py file (e.g., report_generator.py).
-
-
-3. Run the script.
+User interaction through command-line interface or GUI (optional)
 
 
-4. Check the current directory for the generated simple_report.pdf.
+📂 Project Structure
+
+ai-chatbot-nlp/
+│
+├── chatbot.py            # Main Python script
+├── intents.json          # Sample intents and responses
+├── requirements.txt      # List of Python dependencies
+└── README.md             # Project documentation
+
+📥 Installation
+
+1. Clone the repository:
 
 
 
+git clone https://github.com/your-username/ai-chatbot-nlp.git
+cd ai-chatbot-nlp
 
----
-
-📬 Deliverables
-
-✅ Python script (report_generator.py)
-
-✅ Sample report PDF (simple_report.pdf)
+2. Install required dependencies:
 
 
 
----
+pip install -r requirements.txt
+
+▶️ Usage
+
+Run the chatbot:
+
+python chatbot.py
+
+Interact with the chatbot through the terminal. You can type greetings, questions, or basic queries defined in the intents.json.
+
+📦 Deliverables
+
+✅ A Python script that contains the chatbot logic
+
+✅ A working chatbot that responds to user inputs
+
 
 📌 Author
 
